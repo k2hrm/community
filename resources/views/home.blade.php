@@ -13,25 +13,11 @@
                         {{ session('status') }}
                     </div>
                     @endif
-                    ようこそ！{{$user->name}}さん
-                    <h2>My Music</h2>
+                    <h2>最近の楽曲投稿</h2>
                     <ul>
-                        <li>Answer Song</li>
-                        <li>ある腫れた日に</li>
-                        <li>Silent Poet</li>
+                    <li></li>
                     </ul>
-                    <h2>My Music Video</h2>
-                    <ul>
-                        <li>Answer Song</li>
-                        <li>ある腫れた日に</li>
-                        <li>Silent Poet</li>
-                    </ul>
-                    <h2>Music Boostar Tools Menu</h2>
-                    <ul>
-                        <li>ミュージックビデオを作る</li>
-                        <li>ミュージックビデオを公開する</li>
-                        <li>音楽を聴いてもらう</li>
-                    </ul>
+                    <p><a href="{{  url('/mypage/') }}/{{ $user->id }}">マイページ</a></p>
                 </div>
             </div>
         </div>
